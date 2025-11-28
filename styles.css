@@ -1285,6 +1285,15 @@ header {
   .footer-grid {
     grid-template-columns: 1fr 1fr;
   }
+  
+  /* Reduce section padding on mobile */
+  .about, .menu, .gallery, .testimonials, .booking, .contact, .pricing, .faq, .blog {
+    padding: 70px 0;
+  }
+  
+  .stats {
+    padding: 40px 0;
+  }
 }
 @media screen and (max-width: 576px) {
   .section-title h2 {
@@ -1379,6 +1388,15 @@ header {
     width: 25px;
     height: 3px;
     margin: 3px 0;
+  }
+  
+  /* Further reduce section padding on small mobile screens */
+  .about, .menu, .gallery, .testimonials, .booking, .contact, .pricing, .faq, .blog {
+    padding: 60px 0;
+  }
+  
+  .stats {
+    padding: 30px 0;
   }
 }
 
